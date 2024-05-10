@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 import { achievementData } from "../../data/education";

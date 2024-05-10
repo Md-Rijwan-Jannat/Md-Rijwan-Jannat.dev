@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGlobe } from "react-icons/fa";
 
 const ResumeCard = ({ education }) => {

@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
 import Links from "../SocialMedia/Links";
 
@@ -10,7 +9,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
   const [navbarBackground, setNavbarBackground] = useState("transparent");
-  const [fadeRight, setFadeRight] = useState(false);
+  // const [fadeRight, setFadeRight] = useState(false);
 
   const [backgroundTransition, setBackgroundTransition] =
     useState("background 0.4s");
@@ -40,7 +39,7 @@ const Navbar = () => {
       }}
     >
       <div className="flex items-center gap-">
-        <h2 className="bg-designColor text-lg lg:text-2xl uppercase px-1 md:px-1 py-2 md:py-3 text-black font-[700]">
+        <h2 className="bg-designColor text-lg lg:text-2xl uppercase px-1 md:px-1 py-2 text-black font-[700]">
           {" "}
           Rijwan
         </h2>
@@ -127,11 +126,9 @@ const Navbar = () => {
               <span
                 data-aos="fade-right"
                 onClick={() => {
-                  setFadeRight(true);
                   setTimeout(() => {
                     setShowMenu(false);
-                    setFadeRight(false);
-                  }, 300); // Adjust the duration to match your CSS animation duration
+                  }, 300);
                 }}
                 className="absolute top-4 right-4 text-gray-400 hover-text-designColor duration-300 text-2xl cursor-pointer"
               >

@@ -1,4 +1,3 @@
-import React from "react";
 import { useTypewriter, Cursor, Typewriter } from "react-simple-typewriter";
 import Media from "./Media";
 import resume from "../../assets/Resume/Fullstack developer.pdf";

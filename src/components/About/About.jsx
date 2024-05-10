@@ -1,4 +1,3 @@
-import React from "react";
 import Education from "./Education";
 import Skills from "./Skills";
 import Achievement from "./Achievement";
@@ -10,7 +9,7 @@ import "react-tabs/style/react-tabs.css";
 const About = () => {
   return (
     <section id="about">
-      <div className="flex justify-center pt-16 items-center text-center">
+      <div className="flex justify-center pt-16 items-center text-center overflow-hidden overflow-x-hidden">
         <Title title1={"About"} title2={"About"} />
       </div>
       <Tabs

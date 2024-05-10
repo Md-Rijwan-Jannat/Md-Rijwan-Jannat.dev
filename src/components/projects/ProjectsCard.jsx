@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 import GitHubDropdown from "../ui/GitHubDrop/GitHubDropdown";
 import SliderModal from "../ui/SliderModal/SliderModal";
 
-const ProjectsCard = ({ project, title, des, src }) => {
+const ProjectsCard = ({ project }) => {
   const { name, image, images, details, link1, link2, link3, technology } =
     project;
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import profile from "../../assets/images/profile.png";
 
 const ContactLeft = () => {
@@ -9,7 +9,7 @@ const ContactLeft = () => {
   };
 
   const text =
-    "I am a dedicated MERN Stack Developer with expertise in web development. I excel in building full-stack applications using MongoDB, Express, React, and Node.js, and I'm passionate about creating user-friendly, elegant web solutions. With a strong commitment to staying up-to-date with industry best practices, I'm ready to tackle new challenges and turn digital ideas into reality.";
+    "I am a dedicated MERN Stack Developer with expertise in web development. I excel in building full-stack applications using MongoDB, Express,   and Node.js, and I'm passionate about creating user-friendly, elegant web solutions. With a strong commitment to staying up-to-date with industry best practices, I'm ready to tackle new challenges and turn digital ideas into reality.";
 
   const displayedText = showFullText ? text : text.slice(0, 200);
 

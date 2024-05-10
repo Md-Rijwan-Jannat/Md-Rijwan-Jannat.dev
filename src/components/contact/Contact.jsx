@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import ContactLeft from "./ContactLeft";
 import { Title } from "../ui/Title/Title";
 import emailjs from "@emailjs/browser";
@@ -72,7 +72,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full py-5 pt-10 border-b-[1px] border-b-black pb-10"
+      className="w-full py-5 pt-10 border-b-[1px] border-b-black pb-1 overflow-hidden overflow-x-hidden"
     >
       <div className="flex justify-center items-center text-center">
         <Title title1={"Contact"} title2={"Contact"} />

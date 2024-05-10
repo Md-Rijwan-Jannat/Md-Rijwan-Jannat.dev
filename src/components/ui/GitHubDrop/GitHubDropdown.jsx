@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Link } from "react-scroll";
 
 const GitHubDropdown = ({ icon1, icon2, icon3, gitHubLink1, gitHubLink2 }) => {

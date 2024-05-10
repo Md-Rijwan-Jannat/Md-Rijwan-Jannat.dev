@@ -1,5 +1,5 @@
 // App.js
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
@@ -32,8 +32,8 @@ function App() {
 
   return (
     <div
-      className={`w-full h-auto bg-bodyColor text-lightText overflow-hidden ${
-        isLoading ? "overflow-hidden" : ""
+      className={`w-full h-auto bg-bodyColor text-lightText overflow-hidden overflow-x-hidden ${
+        isLoading ? "overflow-hidden overflow-x-hidden" : ""
       }`}
     >
       {isLoading ? (

@@ -1,4 +1,3 @@
-import React from "react";
 import LeftBanner from "./LeftBanner";
 import RightBanner from "./RightBanner";
 import bannerVideos from "../../assets/videos/banner.mp4";
@@ -7,7 +6,7 @@ const Banner = () => {
   const videoUrl = bannerVideos;
 
   return (
-    <section id="home" className="w-full">
+    <section id="home" className="w-full overflow-hidden overflow-x-hidden">
       {/* Create a div for the video background */}
       <div
         className=""
