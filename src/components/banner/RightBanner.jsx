@@ -1,4 +1,4 @@
-import { bannerImg } from "../../assets/index";
+import bannerImg from "/src/assets/bannerImg.png";
 
 const RightBanner = () => {
   return (

@@ -33,9 +33,10 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-[130px] py-5 px-3 fixed top-0 z-50 mx-auto flex justify-between items-center font-titleFont ${navbarBackground}`}
+      className={`w-full h-[130px] py-5 px-3 fixed top-0 z-50 mx-auto flex justify-between items-center font-titleFont ${navbarBackground} bg-opacity-80`}
       style={{
         transition: backgroundTransition,
+        backdropFilter: showMenu ? "blur(5px)" : "none", // Apply blur when menu is shown
       }}
     >
       <div className="flex items-center gap-">
