@@ -37,7 +37,7 @@ const Banner = () => {
         </video>
       </div>
 
-      <div className="relative top-20 lg:mt-24 w-full flex flex-col lg:flex-row gap-5 justify-around items-center">
+      <div className="relative top-20 lg:mt-24 w-full flex flex-col lg:flex-row gap-5 justify-around items-center overflow-hidden overflow-x-hidden">
         <RightBanner />
         <LeftBanner />
       </div>

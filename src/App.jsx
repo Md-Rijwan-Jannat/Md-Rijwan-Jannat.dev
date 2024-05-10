@@ -45,14 +45,15 @@ function App() {
             <BackgroundGradientAnimation>
               <Banner />
             </BackgroundGradientAnimation>
-
             <Features />
-            <Projects />
-            <About />
-            <Location />
-            <Contact />
-            <Footer />
-            <FooterBottom />
+            <div className="overflow-x-hidden">
+              <Projects />
+              <About />
+              <Location />
+              <Contact />
+              <Footer />
+              <FooterBottom />
+            </div>
           </div>
         </>
       )}
