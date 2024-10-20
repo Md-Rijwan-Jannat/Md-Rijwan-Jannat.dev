@@ -1,51 +1,51 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-scroll";
-import { FiMenu } from "react-icons/fi";
-import { MdClose } from "react-icons/md";
-import { navLinksdata } from "../../constants";
-import Links from "../SocialMedia/Links";
+import { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
+import { FiMenu } from 'react-icons/fi';
+import { MdClose } from 'react-icons/md';
+import { navLinksdata } from '../../constants';
+import Links from '../SocialMedia/Links';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [activeLink, setActiveLink] = useState(null);
-  const [navbarBackground, setNavbarBackground] = useState("transparent");
+  const [navbarBackground, setNavbarBackground] = useState('transparent');
   // const [fadeRight, setFadeRight] = useState(false);
 
   const [backgroundTransition, setBackgroundTransition] =
-    useState("background 0.4s");
+    useState('background 0.4s');
 
   const handleScroll = () => {
     if (window.scrollY > 0) {
-      setNavbarBackground("bg-bodyColor");
-      setBackgroundTransition("background 0.4s");
+      setNavbarBackground('bg-bodyColor');
+      setBackgroundTransition('background 0.4s');
     } else {
-      setNavbarBackground("transparent");
-      setBackgroundTransition("background 0.4s");
+      setNavbarBackground('transparent');
+      setBackgroundTransition('background 0.4s');
     }
   };
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   return (
     <div
-      className={`w-full h-[130px] py-5 px-3 fixed top-0 z-50 mx-auto flex justify-between items-center font-titleFont ${navbarBackground} bg-opacity-80`}
+      className={`w-full py-2 px-3 fixed top-0 z-50 mx-auto flex justify-between items-center font-titleFont ${navbarBackground} bg-opacity-80`}
       style={{
         transition: backgroundTransition,
-        backdropFilter: showMenu ? "blur(5px)" : "none", // Apply blur when menu is shown
+        backdropFilter: showMenu ? 'blur(5px)' : 'none', // Apply blur when menu is shown
       }}
     >
       <div className="flex items-center gap-">
-        <h2 className="bg-designColor text-lg lg:text-2xl uppercase px-1 md:px-1 py-2 text-black font-[700]">
-          {" "}
-          Rijwan
+        <h2 className="bg-designColor text-lg uppercase px-2 md:px-2 py-2 text-black font-[700]">
+          {' '}
+          Full-Stack
         </h2>
-        <h2 className="text-lg lg:text-2xl uppercase px-2 py-3 text-designColor font-[700]">
-          Jannat
+        <h2 className="text-lg uppercase px-2 py-3 text-designColor font-[700]">
+          Developer
         </h2>
       </div>
       <div>
@@ -61,8 +61,8 @@ const Navbar = () => {
                 onSetActive={() => setActiveLink(link)}
                 className={
                   activeLink === link
-                    ? "active border-t-4 border-designColor"
-                    : ""
+                    ? 'active border-t-4 border-designColor'
+                    : ''
                 }
               >
                 {title}
@@ -84,12 +84,12 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-8 py-2 relative">
               <div className="flex items-center gap-">
-                <h2 className="bg-designColor text-lg lg:text-2xl uppercase px-1 md:px-1 py-2 md:py-3 text-black font-[700]">
-                  {" "}
-                  Rijwan
+                <h2 className="bg-designColor text-lg uppercase px-2 md:px-2 py-2 md:py-3 text-black font-[700]">
+                  {' '}
+                  Full-Stack
                 </h2>
-                <h2 className="text-lg lg:text-2xl uppercase px-2 py-3 text-designColor font-[700]">
-                  Jannat
+                <h2 className="text-lg uppercase px-2 py-3 text-designColor font-[700]">
+                  Developer
                 </h2>
               </div>
               <ul className="flex flex-col gap-4 items-center justify-center">
@@ -109,8 +109,8 @@ const Navbar = () => {
                       onSetActive={() => setActiveLink(item.link)}
                       className={
                         activeLink === item.link
-                          ? "active border-t-2 border-designColor"
-                          : ""
+                          ? 'active border-t-2 border-designColor'
+                          : ''
                       }
                     >
                       {item.title}

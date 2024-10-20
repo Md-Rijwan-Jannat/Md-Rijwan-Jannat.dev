@@ -1,4 +1,4 @@
-import bannerImg from "/src/assets/bannerImg.png";
+import bannerImg from '../../../src/assets/images/banner-image.jpg';
 
 const RightBanner = () => {
   return (
@@ -6,7 +6,7 @@ const RightBanner = () => {
       <img
         data-aos="fade-right"
         data-aos-once="true"
-        className="w-[240px] h-[300px] lg:w-[350px] lg:h-[450px] mb-20"
+        className="w-[300px] md:w-[350px] h-[300px] md:h-[350px] object-cover rounded-full mt-20"
         src={bannerImg}
         alt="bannerImg"
       />

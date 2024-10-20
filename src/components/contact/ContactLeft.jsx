@@ -1,5 +1,6 @@
-import { useState } from "react";
-import profile from "../../assets/images/profile.png";
+import { useState } from 'react';
+import profile from '../../assets/images/profile.png';
+import banner from '../../assets/images/banner.jpg';
 
 const ContactLeft = () => {
   const [showFullText, setShowFullText] = useState(false);
@@ -19,15 +20,10 @@ const ContactLeft = () => {
         <div>
           <img
             className="w-full h-64 object-cover rounded-lg mb-2"
-            src={"https://i.ibb.co/2NJrdGL/1698420881184-01.jpg"}
+            src={banner}
             alt="contactImg"
           />
         </div>
-        <img
-          className="w-32 h-32 rounded-full object-cover ring-2 ring-gray-600 mb-2 absolute -bottom-7 left-3"
-          src={profile}
-          alt="contactImg"
-        />
       </div>
 
       <div
@@ -64,7 +60,7 @@ const ContactLeft = () => {
           Phone: <span className="text-lightText">(+880) 1797660947</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email:{" "}
+          Email:{' '}
           <span className="text-lightText">rijwanjannat36@gmail.com</span>
         </p>
       </div>

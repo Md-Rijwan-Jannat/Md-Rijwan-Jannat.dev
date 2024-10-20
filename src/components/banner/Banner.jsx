@@ -1,6 +1,6 @@
-import LeftBanner from "./LeftBanner";
-import RightBanner from "./RightBanner";
-import bannerVideos from "../../assets/videos/banner.mp4";
+import LeftBanner from './LeftBanner';
+import RightBanner from './RightBanner';
+import bannerVideos from '../../assets/videos/banner.mp4';
 
 const Banner = () => {
   const videoUrl = bannerVideos;
@@ -11,12 +11,12 @@ const Banner = () => {
       <div
         className=""
         style={{
-          position: "absolute",
+          position: 'absolute',
           top: 0,
           left: 0,
-          width: "100%",
-          height: "100%",
-          overflow: "hidden",
+          width: '100%',
+          height: '100%',
+          overflow: 'hidden',
         }}
       >
         {/* Place the video inside the div */}
@@ -26,9 +26,9 @@ const Banner = () => {
           muted
           playsInline
           style={{
-            width: "100%",
-            height: "auto",
-            position: "absolute",
+            width: '100%',
+            height: 'auto',
+            position: 'absolute',
             top: 0,
             left: 0,
           }}
@@ -37,9 +37,12 @@ const Banner = () => {
         </video>
       </div>
 
-      <div className="relative top-20 lg:mt-24 w-full flex flex-col lg:flex-row gap-5 justify-around items-center overflow-hidden overflow-x-hidden">
-        <RightBanner />
-        <LeftBanner />
+      <div className="relative flex justify-center items-center w-full h-full lg:h-[700px]">
+        <div className="flex flex-col lg:flex-row gap-5 items-center justify-between">
+          {' '}
+          <RightBanner />
+          <LeftBanner />
+        </div>
       </div>
     </section>
   );
