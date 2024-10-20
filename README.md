@@ -1,16 +1,17 @@
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"  height='100px'>Hi, I am Md Rijwan Jannat👨‍💻
+# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="40px"  height='40px'>Hi, I am Md Rijwan Jannat
 
-![](https://img.shields.io/github/followers/Md-Rijwan-Jannat?label=follow&logo=github&style=flat-square)
+![GitHub followers](https://img.shields.io/github/followers/Md-Rijwan-Jannat?label=follow&logo=github&style=flat-square)
 ![GitHub User's stars](https://img.shields.io/github/stars/Md-Rijwan-Jannat?label=%E2%AD%90GitHub%20stars&style=flat-square)
-![](https://komarev.com/ghpvc/?Md-Rijwan-Jannat=Md-Rijwan-Jannat&style=flat-square&color=ff69b4)
+![](https://komarev.com/ghpvc/?username=Md-Rijwan-Jannat&style=flat-square&color=ff69b4)
 <a href="https://discord.gg/87722te4">![Discord](https://img.shields.io/discord/686069011481362462?logo=discord&style=flat-square&label=web%20dev%20community)</a>
 <a href="https://youtube.com/avideait">![Youtube](https://img.shields.io/badge/-Avideait-333333?style=flat&logo=youtube)</a>
+
 
 <!-- <h1 style="font-size: 2.5rem; font-weight: bold; text-align: center;" align='center'> <img src="https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif" width="40px"> Hello World! <img src="https://media.giphy.com/media/fFEFxS3DE5VIY/giphy.gif" width="35px" /></h1>    -->
 
 ![mi perfil](https://res.cloudinary.com/superfolio/image/upload/v1620689979/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f63362f33332f63322f63363333633230656465383266306530636564376435373064626533613166332e676966_yjuh2s.gif)
 
-<p style="text-align: center; font-size: 1rem;" align='center'>👦🏻 <span style='color:cyan'>Abu Sani Faysal |  </span> <span style='color:yellow'>MERN stack Developer </span> | <span style='color:lightsky'>  Full stack Developer </span></p>
+<p style="text-align: center; font-size: 1rem;" align='center'>👦🏻 <span style='color:cyan'>Md Rijwan Jannat |  </span> <span style='color:yellow'>Junior Full Stack stack Developer </span> | <span style='color:lightsky'>  MERN stack Developer </span></p>
 
 <br />
 
@@ -18,20 +19,21 @@
 
 <img align='right' src="https://raw.githubusercontent.com/BhavyaCodes/BhavyaCodes/master/.github/cat.gif" height="" width="250" alt="coding cat">
 
-🌱 I’m currently learning <span style="color:orange; font-weight:bold">Data Structure</span> And <span style="color:orange; font-weight:bold">Algorithm</span>
+🌱 I’m currently passionate about and learning <span style="color:orange; font-weight:bold">Full Stack Development</span> with a special focus on <span style="color:orange; font-weight:bold">Data Structures</span> and <span style="color:orange; font-weight:bold">DevOps</span>
 
-💬 Ask me about <span style="color:orange; font-weight:bold">Web Solutions</span>
+💬 Ask me about <span style="color:orange; font-weight:bold">Web Development</span> and <span style="color:orange; font-weight:bold">Backend Solutions</span>
 
-📫 How to reach me: abu.faysal002@gmail.com
+📫 How to reach me: rijwanjannat36@gmail.com
 
-⚡ Fun fact <span style="color:orange; font-weight:bold">_I Am funny too_</span>
+⚡ Fun fact: <span style="color:orange; font-weight:bold">_I’m not just a coder—I'm a funny one too!_</span>
 
-#### :muscle: Things I am challenging myself with:
+#### :muscle: Current Challenges as a Junior Full Stack Developer:
 
-- Waking up earlier to make good use of the day
-- Coding at least 4 hours a day
-- Exercising 3 days a week
-- Improving my CV with some education apart from university
+- Waking up earlier to maximize productivity
+- Coding at least 4 hours a day to enhance my skills
+- Exercising 3 days a week for a balanced lifestyle
+- Expanding my knowledge beyond university by learning new tools and technologies
+
 
 <br />
 
@@ -43,8 +45,7 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="25"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="25"/> 
 <img src="https://img.shields.io/badge/Material--UI-olive?style=for-the-badge&logo=material-ui&logoColor=white" height="25"/> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" height="25"/> <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" height="25"/><img src="https://img.shields.io/badge/Daisy UI-dodgerblue?style=for-the-badge&logo=-css&logoColor=white" height="25"/>
 <img src="https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=white" height="25"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="25"/> <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" height="25"/>
-<img src='https://img.shields.io/badge/Vue JS-majenta' height="25" style='margin-left:2px'/>
-<img src='https://img.shields.io/badge/Vuex-bisque' height="25" style='margin-left:2px'/><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" height="25"/>
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" height="25"/>
  <img src='https://img.shields.io/badge/Express JS -gainsboro' height="25" style='margin-left:2px'/>
   <img src="https://img.shields.io/badge/-MongoDB-4DB33D?style=flat&logo=mongodb&logoColor=FFFFFF" height="25"/><img src='https://img.shields.io/badge/Mongoose-red' height="25" style='margin-left:2px'/>
   <br/>
@@ -55,8 +56,9 @@
 <br/> <hr/>
 <br>
 <br>
-### 🌐 Connect with Me:
-
+## 🌐 Connect with Me:
+<br />
+<br />
   <a href="https://www.linkedin.com/in/md-rijwan-jannat-3a479532b" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
